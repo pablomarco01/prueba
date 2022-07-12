@@ -1,0 +1,218 @@
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+.Nav {
+  display: flex;
+  align-items: center;
+  background-color: #2c3e50;
+  width: 100%;
+  margin-top: 0px;
+  font-size: 1.25rem;
+  height: 60px;
+}
+
+.Menu {
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+  margin-right: 10px;
+  color: #918e9b;
+}
+
+.ItemMenu {
+  margin-right: 22px;
+  list-style: none;
+  transition-duration: 0.4s;
+}
+
+.ItemMenu:hover {
+  background-color: #918e9b;
+  color: #2c3e50;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.MenuBoton,
+.atras,
+.comprar,
+.contactar,
+.entrar,
+.registro {
+  border: none;
+  border-radius: 5px;
+  background-color: #d35400;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-left: 20px;
+  margin-right: auto;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.atras {
+  position: absolute;
+  display: flex;
+}
+
+.MenuBoton:hover,
+.atras:hover,
+.comprar:hover,
+.entrar:hover {
+  background-color: white;
+  border-color: #d35400;
+  color: #d35400;
+}
+
+h3 {
+  color: #d35400;
+  margin-right: 20px;
+}
+
+.Card {
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.tarjetas {
+  padding: 20px;
+  display: grid 3;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.descripcion {
+  display: flex;
+  align-items: center;
+}
+
+.nombre {
+  font-size: 16px;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+.precio {
+  margin-right: 10px;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.condicion {
+  display: flex;
+  color: #918e9b;
+}
+
+.botonTarjeta {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.Pie {
+  background-color: #2c3e50;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  color: #918e9b;
+  font-size: 13px;
+}
+
+.PieInfo {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.mail,
+.quienes {
+  margin-right: auto;
+}
+
+.ayuda {
+  margin-right: 10px;
+}
+
+.ProdDesc {
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-left: 20px;
+}
+
+.ProdFoto {
+  height: 300px;
+}
+
+.ProdCondicion {
+  color: #918e9b;
+}
+
+.botones {
+  display: flex-wrap;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.comprar {
+  margin-bottom: 5px;
+}
+
+.contactar {
+  background-color: forestgreen;
+}
+
+.contactar:hover {
+  background-color: white;
+  border-color: forestgreen;
+  color: forestgreen;
+}
+
+.logInputs {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  margin-left: 40%;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.botonesRegistro {
+  display: flex;
+  margin-left: -5%;
+}
+
+.registro {
+  background-color: #2c3e50;
+}
+
+.registro:hover {
+  background-color: white;
+  border-color: #2c3e50;
+  color: #2c3e50;
+}
